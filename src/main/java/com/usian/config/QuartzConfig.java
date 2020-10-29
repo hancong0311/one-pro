@@ -46,6 +46,8 @@ public class QuartzConfig {
 
     public void test(){
         System.out.println("test2222--------");
+
+        System.out.println("test111--------");
     }
     @Bean
     public SchedulerFactoryBean schedulerFactoryBean(CronTriggerFactoryBean cronTriggerFactoryBean){
