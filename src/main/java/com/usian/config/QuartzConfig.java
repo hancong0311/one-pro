@@ -43,6 +43,10 @@ public class QuartzConfig {
 
     }
 
+
+    public void test(){
+        System.out.println("test--------");
+    }
     @Bean
     public SchedulerFactoryBean schedulerFactoryBean(CronTriggerFactoryBean cronTriggerFactoryBean){
         SchedulerFactoryBean scheduler = new SchedulerFactoryBean();
